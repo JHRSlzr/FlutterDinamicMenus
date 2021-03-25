@@ -4,9 +4,9 @@ final _icons = <String, IconData>{
   'add_alert': Icons.add_alert,
   'accessibility': Icons.accessibility,
   'folder_open': Icons.folder_open,
-  'garage': Icons.gamepad,
-  'domain': Icons.domain,
-  'living': Icons.dangerous
+  'access_alarm': Icons.access_alarm,
+  'account_circle': Icons.account_circle,
+  'android': Icons.adb
 };
 
 Icon getIcon(String nombreIcono) {

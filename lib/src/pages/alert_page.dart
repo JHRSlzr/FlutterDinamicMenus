@@ -4,15 +4,18 @@ import 'package:COMPONENTES/src/utils/icono_string_util.dart';
 import 'package:flutter/material.dart';
 
 class AlertPage extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Second Menu')),
+      appBar: AppBar(
+        title: Text('Second Menu')
+        ),
       body: _lista(),
     );
   }
 
-  Widget _lista() {
+    Widget _lista() {
     // FUTURE BUILDER
     return FutureBuilder(
         future: menuProvider.cargarData(),
@@ -31,7 +34,7 @@ class AlertPage extends StatelessWidget {
       final widgetTemp = ListTile(
         title: Text(opt['texto']),
         leading: getIcon(opt['icon']),
-        trailing: Icon(Icons.keyboard_arrow_down, color: Colors.blue),
+        trailing: Icon(Icons.keyboard_arrow_down, color: Colors.blueAccent),
         onTap: () {
           final route = MaterialPageRoute(builder: (context) => Descripcion());
           Navigator.push(context, route);

@@ -15,7 +15,7 @@
         },
         {
             "ruta" : "android",
-            "icon": "adb",
+            "icon": "android",
             "texto": "Versión de Android",
             "descripcion": "Aquí van la versión de Android :)"
         }
