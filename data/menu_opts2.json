@@ -1,0 +1,23 @@
+{
+    "nombreApp": "componentes",
+    "rutas":[
+        {
+            "ruta" : "alarm",
+            "icon": "access_alarm",
+            "texto": "Alarmas",
+            "descripcion": "Aquí van las alarmas"
+        },
+        {
+            "ruta" : "contacts",
+            "icon": "account_circle",
+            "texto": "Contactos",
+            "descripcion": "Aquí van los contactos"
+        },
+        {
+            "ruta" : "android",
+            "icon": "adb",
+            "texto": "Versión de Android",
+            "descripcion": "Aquí van la versión de Android :)"
+        }
+    ]
+}
