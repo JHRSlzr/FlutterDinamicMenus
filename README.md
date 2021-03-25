@@ -1,4 +1,4 @@
-# COMPONENTES
+# Components
 
 A new Flutter project.
 
