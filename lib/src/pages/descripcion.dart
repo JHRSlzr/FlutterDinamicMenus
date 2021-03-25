@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:COMPONENTES/src/providers/menu_provider2.dart';
-import 'package:COMPONENTES/src/utils/icono_string_util.dart';
 
 class Descripcion extends StatelessWidget {
   @override
